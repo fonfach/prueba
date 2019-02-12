@@ -78,6 +78,11 @@ header{
   height: 1px;
   width: 7%;
 }
+/* modales*/
+.modales p{
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
 
 /* contacto */
 #contacto h2{
