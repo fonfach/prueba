@@ -1,19 +1,22 @@
-.bg-purple{
-  background-color: #660066;
-}
+/* body */
 
+
+/*  lineas  */
 .lineaB{
   background-color: white;
-  height: 2px;
+  height: 1px;
   width: 20%;
 }
 .lineaN{
   background-color: black;
-  height: 2px;
+  height: 1px;
   width: 8%;
 }
 
 /* header   */
+.bg-purple{
+  background-color: #660066;
+}
 header{
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
@@ -24,6 +27,31 @@ header .header{
   padding-top: 32rem;
 }
 
+/*  responsivo - dispositivos medios y small  */
+@media (max-width: 767.98px){
+  .columna2{
+    padding-top: 28px;
+  }
+  .m-footer{
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .mtop-5{
+    margin-top: 3rem;
+  }
+}
+@media(max-width: 575.98px) and (min-width: 415px){
+  /*evaluar*/
+  .mazos{
+    padding-left: 14%;
+  }
+}
+@media(max-width: 414px){
+  .mazos{
+    padding-left: 1rem;
+  }
+}
 /* footer  */
 .iconos a{
   text-decoration: none;
