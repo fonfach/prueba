@@ -94,8 +94,8 @@ header{
   width: 8%;
 }
 
-/* footer  */
-/*alinear horizontalmente h3 con iconos*/
+/* footer */
+/*falta !!!!!!!!!!- alinear horizontalmente h3 con iconos*/
 .iconos a{
   text-decoration: none;
   color: white;
@@ -103,20 +103,23 @@ header{
 
 /*  responsivo - dispositivos medios y small  */
 @media (max-width: 767.98px){
+  /*experiencia - separar columnas*/
   .columna2{
     padding-top: 28px;
   }
+  /* footer - separacion magdalena - iconos*/
   .m-footer{
     padding-bottom: 1rem;
   }
 }
 @media (max-width: 575.98px) {
+  /* trabajos - espacio entre cartas*/
   .mtop-5{
     margin-top: 3rem;
   }
 }
 @media(max-width: 575.98px) and (min-width: 415px){
-  /*evaluar*/
+  /*evaluar!!!!!!!!!!!!!!!*/
   .mazos{
     padding-left: 14%;
   }
