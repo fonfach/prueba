@@ -1,19 +1,15 @@
 /* body */
-
-
-/*  lineas  */
-.lineaB{
-  background-color: white;
-  height: 1px;
-  width: 20%;
-}
-.lineaN{
-  background-color: black;
-  height: 1px;
-  width: 8%;
+body{
+  font-family: 'Oswald', arial;
+  /*duda color al inspeccionar elemento*/
+  color: #373A3C;
 }
 
-/* header   */
+/* navbar ->preguntar por padding*/
+.navbar span{
+  font-size: 24px;
+}
+/* header */
 .bg-purple{
   background-color: #660066;
 }
@@ -23,8 +19,81 @@ header{
   background-position: top;
   background-size: cover;
 }
-header .header{
+#header h2{
+  font-weight: 200;
+}
+#header div{
   padding-top: 32rem;
+}
+#header hr{
+  background-color: white;
+  height: 1px;
+  width: 24%;
+}
+
+/* sobreMi */
+#sobreMi{
+  font-family: 'Open Sans';
+}
+#sobreMi h2{
+  font-weight: 600;
+}
+#sobreMi p{
+  font-size: 18px;
+  font-weight: 400;
+}
+#sobreMi hr{
+  background-color: #373A3C;
+  height: 1px;
+  width: 10%;
+}
+
+/* experiencia */
+#experiencia h2{
+  font-size: 37px;
+}
+#experiencia h4{
+  font-weight: 600;
+}
+#experiencia h5{
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+#experiencia hr{
+  background-color: #373A3C;
+  height: 1px;
+  width: 8%;
+}
+
+/* trabajos */
+#trabajos h2{
+  font-size: 37px;
+}
+#trabajos p{
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+#trabajos hr{
+  background-color: white;
+  height: 1px;
+  width: 7%;
+}
+
+/* contacto */
+#contacto h2{
+  font-size: 37px;
+}
+#contacto hr{
+  background-color: #373A3C;
+  height: 1px;
+  width: 8%;
+}
+
+/* footer  */
+/*alinear horizontalmente h3 con iconos*/
+.iconos a{
+  text-decoration: none;
+  color: white;
 }
 
 /*  responsivo - dispositivos medios y small  */
@@ -51,9 +120,4 @@ header .header{
   .mazos{
     padding-left: 1rem;
   }
-}
-/* footer  */
-.iconos a{
-  text-decoration: none;
-  color: white;
 }
