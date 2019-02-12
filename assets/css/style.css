@@ -12,11 +12,16 @@
   height: 2px;
   width: 8%;
 }
+
+/* header   */
 header{
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+header .header{
+  padding-top: 32rem;
 }
 
 /* footer  */
