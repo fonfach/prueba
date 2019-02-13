@@ -16,7 +16,7 @@ body{
 header{
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
-  background-position: top;
+  background-position:top;
   background-size: cover;
 }
 #header h2{
@@ -37,6 +37,7 @@ header{
 }
 #sobreMi h2{
   font-weight: 600;
+  font-size: 30px;
 }
 #sobreMi p{
   font-size: 18px;
@@ -96,6 +97,7 @@ header{
 
 /* footer */
 /*falta !!!!!!!!!!- alinear horizontalmente h3 con iconos*/
+
 .iconos a{
   text-decoration: none;
   color: white;
@@ -105,7 +107,7 @@ header{
 @media (max-width: 767.98px){
   /*experiencia - separar columnas*/
   .columna2{
-    padding-top: 28px;
+    padding-top: 2rem;
   }
   /* footer - separacion magdalena - iconos*/
   .m-footer{
@@ -129,3 +131,4 @@ header{
     padding-left: 1rem;
   }
 }
+*/
